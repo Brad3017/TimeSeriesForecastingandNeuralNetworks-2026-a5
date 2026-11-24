@@ -12,9 +12,9 @@
 
 | **Details**                                                                                        | **Comment** |
 |:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+| **Student ID:**                                                                                    |169384             |
+| **Name:**                                                                                          |Bradley Lusalenge             |
+| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |I chose MSFT as our stock and downloaded the data on 23rd November 2026 with download_data.py (2,981 trading days, 2015-01-02 to 2026-11-09, no data quality problems). I set TARGET_TICKER in tslab/config.py and pushed the data so the whole team could start. I ran Notebook 1 (data quality report and a candlestick chart of the Feb to Apr 2020 crash) and Notebook 2 (ADF and KPSS stationarity tests), and concluded that the closing price and its log are non-stationary while the price change and log return are stationary, so we forecast returns, not prices. I am also collecting the team's results for the written verdict. Branch: https://github.com/Brad3017/TimeSeriesForecastingandNeuralNetworks-2026-a5/tree/Brad-feature<br>What I learned: why prices cannot be forecast directly (they are non-stationary), how ADF and KPSS ask opposite questions, and why a price forecast must be compared with a naive forecast.             |
 
 **Member 2**
 
