@@ -28,9 +28,9 @@
 
 | **Details**                                                                                        | **Comment** |
 |:---------------------------------------------------------------------------------------------------|:------------|
-| **Student ID:**                                                                                    |             |
-| **Name:**                                                                                          |             |
-| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |             |
+| **Student ID:**       168046                                                                             |             |
+| **Name:**           George Karanja                                                                               |             |
+| **What part of the lab did you personally contribute to,** <br>**and what did you learn from it?** |    I ran Notebook 4, steps 1 to 7, on [STOCK SYMBOL] data, using PyCharm and a Python 3.12 virtual environment. I built the Ridge and gradient boosting models on the multi-predictor features and confirmed with check_no_lookahead that none of the features changes when the future is removed (PASSED). I tuned the hyperparameters (alpha = [best_alpha], max depth = [best_depth], learning rate = [best_rate]) on data before the test period, then compared both models with the naive forecast in the walk-forward test. Gradient boosting was the better model (RMSE 5.8236, directional accuracy 51.99%) against Ridge (RMSE 5.8680, directional accuracy 50.65%), but neither beat naive (RMSE 5.7772), and both had a negative out-of-sample R2 (-0.0071 and -0.0166). The Diebold-Mariano p-values against naive were [Ridge p] and [gradient boosting p], so [the difference was / was not] statistically significant. In the trading-cost test neither model beat buy and hold, even before costs. I learned that a forecast can look reasonable on error metrics and still have no real skill, that returns are very hard to predict, and that honest validation (no shuffling, no tuning on the test period) matters more than getting a good-looking number. Branch: https://github.com/[org]/[repo]/tree/member3-notebook4 |          |
 
 **Member 4**
 
